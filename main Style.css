@@ -174,3 +174,81 @@
 	font-size: 45px;
 	color: white;
 }
+
+.body0 {
+	font-size: 150%;
+	color: white;
+	background-color: rgba(144, 175, 224, 1);
+	border-radius: 12px;
+	width: 60%;
+	margin: auto;
+	padding: 15px;
+	text-align: justify;
+	word-break: keep-all;
+}
+
+.body1 {
+	font-size: 150%;
+	color: white;
+	background-color: rgba(144, 175, 224, 1);
+	border-radius: 12px;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 15px;
+	padding: 15px;
+	text-align: justify;
+	word-break: keep-all;
+}
+
+
+
+.body2 {
+	font-size: 150%;
+	color: white;
+	background-color: rgba(144, 175, 224, 1);
+	border-radius: 12px;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 15px;
+	padding: 15px;
+	text-align: justify;
+	word-break: keep-all;
+}
+
+.body3 {
+	font-size: 150%;
+	color: white;
+	background-color: rgba(144, 175, 224, 1);
+	border-radius: 12px;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 15px;
+	padding: 15px;
+	text-align: justify;
+	word-break: keep-all;
+}
+
+.languagesBody {
+	font-size: 150%;
+	color: white;
+	background-color: rgba(144, 175, 224, 1);
+	border-radius: 12px;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 15px;
+	padding: 15px;
+	text-align: justify;
+	word-break: keep-all;
+}
+
+.about {
+	font-size: 150%;
+}
+
+.header1 {
+	font-size: 150%;
+}
+
+.header2 {
+	font-size: 150%;
+}
