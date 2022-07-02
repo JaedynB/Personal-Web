@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<link rel = "stylesheet" href = "main Style.css">
+<script src = "mainPageController.js"></script>
+<title> Page Title </title>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1">
+
+<style>
+body 
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+inner-pic-container 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.imgbox 
+{
+    display: grid;
+    height: 100%;
+}
+
+.center-fit 
+{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="mainPersonal.htm">Home</a>
+  <a href="contact.htm">Contact</a>
+</div>
+
+<div class = "slideshow-container">
+	<div class = "inner-pic-container fade">
+		<div class= "numbertext">1 / 2 </div>
+		<img class= "center-fit" src = "sand.jpeg", style= "width:auto;"/>
+		<div class= "text">Colorado Sand Dunes </div>
+		<div class = "nameImage">Jaedyn Brown</div>
+	</div>
+	
+	<div class = "inner-pic-container fade">
+		<div class= "numbertext">2 / 2 </div>
+		<img class = "center-fit" src="farm.jpeg", style= "width:auto;"/> 
+		<div class= "text">Idaho Fields </div>
+		<div class = "nameImage">Jaedyn Brown</div>
+	</div>
+	
+	<a class= "previous" onclick= "plusSlides(-1)">&#10094;</a>
+	<a class= "next" onclick= "plusSlides(1)">&#10095;</a>
+	
+</div>
+<br>
+
+<div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+<header class = "about"> &emsp; <u> About Me: </u> </header>
+
+<div class = "body0">
+	<p>I am a Computer Science student at UTA with an expected graduation of Summer 2023.</p> 
+	
+	<p>Relevant Coursework: Object-Oriented Programming, Algorithms & Data Structures,
+	Programming Languages, Intro to Software Engineering, Operating Systems, Database Systems,
+	Network Systems, Professional Practices.</p>
+</div>
+
+<header class = "header1"> &emsp;<u> Academic Projects: </u></header>
+<div class = "body1">
+	<p>	FAT32 Image Handling - Operating Systems </p>
+	<li> Wrote a program that can open/ read a FAT32 image </li>
+	<li>Wrote own version of common Ubuntu Command Line commands such as ‘ls’, ‘cd’ to navigate the opened FAT32 file system </li>
+	<li>Wrote commands for information about the files saved within the FAT32 image, and commands for retrieving the files from the FAT32 image to be saved on the local system </li>
+</div>
+
+<div class = "body2">
+	<p>Memory Allocation Algorithms - Operating Systems</p>
+	<li>Understand Operating System memory allocation by writing a program that 
+		implements First/Best/Worst/Next fit allocation algorithms</li>
+	<li>Wrote own version of malloc(), realloc(), calloc(), and free()</li>
+</div>
+
+<div class = "body3">
+	<p>SQL Database Project - Databases</p>
+	<li>Designed and created a SQL database designed for storing Artist, Customer, 
+		and Artwork information</li>
+	<li>Used HTML and CSS to create web pages for inserting, removing, and updating 
+		records</li>
+	<li>Created a variety of SQL queries for retrieving records from tables</li>
+	<li>Created a View Table, and a variety of View-based queries for retrieving 
+		appropriate records. </li>
+</div>
+
+
+<header class = "header2"> &emsp;<u>Technical Expertise:</u> </header>
+	
+<div class = "languagesBody"> 
+	<p><u>Experienced:</u> C, Java</p>
+	<p><u>Competent:</u> Python, SQL, HTML, PHP, C++</p>
+	<p><u>Familiar:</u> JavaScript, CSS, Assembly</p>
+	<p><u>Additional:</u> Ubuntu, gcc, GitHub, Microsoft Office</p>
+</div>
+
+
+<div class="footer">
+  <a href="https://github.com/JaedynB?tab=repositories">GitHub</a>
+  <a href="https://www.linkedin.com/in/jaedyn-brown">LinkedIn</a>
+</div>
+
+
+</body>
+</html>
