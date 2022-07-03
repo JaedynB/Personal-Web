@@ -30,11 +30,38 @@ nav
 }
 span
 {
-	color: #14C6F2;
+	color: #00A36C;
 }
 nav u1 li
 {
 	list-style-type: none;
 	display: inline-block;
 	padding: 10px 25px;
+}
+nav u1 li a
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav u1 li a:hover
+{
+	color: #00A36C;
+	transition: .4s;
+}
+.btn
+{
+	background-color: #00A36C;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+.btn:hover
+{
+	transform: scale(1.1);
 }
